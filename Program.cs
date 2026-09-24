@@ -107,36 +107,36 @@
 
 // System.Console.WriteLine(result);
 
-// System.Console.WriteLine("Стоимость напитка");
-// Console.Write("Введите размер напитка: ");
-// string drink = (Console.ReadLine());
-// Console.Write("Есть студенческая скидка: ");
-// bool student = bool.Parse(Console.ReadLine());
+System.Console.WriteLine("Стоимость напитка");
+Console.Write("Введите размер напитка: ");
+string drink = (Console.ReadLine());
+Console.Write("Есть студенческая скидка: ");
+bool student = bool.Parse(Console.ReadLine());
 
-// string cost = drink switch
-// {
-//     "S" when student => "135 руб.",
-//     "M" when student => "180 руб.",
-//     "L" when student => "225 руб.",
-//     "S" => "150 руб.",
-//     "M" => "200 руб.",
-//     "L" => "250 руб.",
-//     _ => "Неизвестный размер"
-// };
+string cost = drink switch
+{
+    "S" when student => "135 руб.",
+    "M" when student => "180 руб.",
+    "L" when student => "225 руб.",
+    "S" => "150 руб.",
+    "M" => "200 руб.",
+    "L" => "250 руб.",
+    _ => "Неизвестный размер"
+};
 
-// System.Console.WriteLine(cost);
+System.Console.WriteLine(cost);
 
-// System.Console.WriteLine("Тариф по времени");
-// Console.Write("Введите время: ");
-// int time = int.Parse(Console.ReadLine());
+System.Console.WriteLine("Тариф по времени");
+Console.Write("Введите время: ");
+int time = int.Parse(Console.ReadLine());
 
-// string tariff = time switch
-// {
-//     > 0 and <= 5 => "Ночной тариф",
-//     >= 6 and <= 9 => "Утренний тариф",
-//     >= 10 and <= 17 => "Дневной тариф",
-//     >= 18 and <= 23 => "Вечерний тариф",
-//     _ => "Неизвестное время"
-// };
+string tariff = time switch
+{
+    > 0 and <= 5 => "Ночной тариф",
+    >= 6 and <= 9 => "Утренний тариф",
+    >= 10 and <= 17 => "Дневной тариф",
+    >= 18 and <= 23 => "Вечерний тариф",
+    _ => "Неизвестное время"
+};
 
-// System.Console.WriteLine(tariff);
+System.Console.WriteLine(tariff);
