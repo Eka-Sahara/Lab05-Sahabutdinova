@@ -12,3 +12,4 @@ C:\Users\User\Documents\Lab05-Sahabutdinova\obj\Debug\net10.0\refint\Lab05-Sahab
 C:\Users\User\Documents\Lab05-Sahabutdinova\obj\Debug\net10.0\Lab05-Sahabutdinova.pdb
 C:\Users\User\Documents\Lab05-Sahabutdinova\obj\Debug\net10.0\Lab05-Sahabutdinova.genruntimeconfig.cache
 C:\Users\User\Documents\Lab05-Sahabutdinova\obj\Debug\net10.0\ref\Lab05-Sahabutdinova.dll
+C:\Users\User\Documents\Lab05-Sahabutdinova\obj\Debug\net10.0\Lab05-Sahabutdinova.sourcelink.json
